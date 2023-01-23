@@ -2,7 +2,9 @@ function onLoad(){
 
     const inputArray = document.getElementsByTagName("input");
     for(var i = 0; i < inputArray.length; i++){
-            inputArray[i].addEventListener('change', calculateSum);
+            if(inputArray[i].disabled == false){
+                inputArray[i].addEventListener('change', calculateSum);
+            }
         }
         calculateSum();
     } 
