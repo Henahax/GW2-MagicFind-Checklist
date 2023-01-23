@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" type="image/png" href="https://wiki.guildwars2.com/images/9/94/Magic_Find_%28account_bonus%29.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Magic Find Checkliste</title>
+  </head>
+  <body onload="onLoad()">
+
+    <h1>Magic Find Checkliste</h1>
+
+    <p>Interaktive Version basierend auf der <a href="https://wiki.guildwars2.com/wiki/Magic_Find#Maximizing_magic_find">Liste im Wiki</a></p>
+
+    <p class="info">
+      <u>
+        <b>Wichtige Info:</b>
+      </u>
+      <br>
+      Magic Find hat seit 28.02.2022 einen Maximalwert von 750%! [
+    <a href="https://wiki.guildwars2.com/wiki/Game_updates/2022-02-28#General_2">Quelle</a>
+    ]
+  </p>
+  <p>Ihr könnt euch wahrscheinlich einge teure, wie den "Black Lion Booster" oder umständliche, wie "Enlightenment" in der Liste sparen!</p>
+
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col" class="col-1"></th>
+            <th scope="col" class="col-2">Wert</th>
+            <th scope="col" class="col-1"></th>
+            <th scope="col" class="col-4">Bezeichnung</th>
+            <th scope="col" class="col-4">Info</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr><td colspan="5">Account</td></tr>
+          <tr>
+            <td><input type="checkbox" disabled="true" checked="true"/></td>
+            <td><input type="number" value="0" min="0" max="50"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/9/94/Magic_Find_%28account_bonus%29.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Account_bonus">Account Bonus</a></td>
+            <td>Typisch: 0-36%+</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" disabled="true" checked="true"/></td>
+            <td><input type="number" value="0" min="0" max="300"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/8/83/Essence_of_Luck_%28exotic%29.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Luck">Luck</a></td>
+            <td>0-300%</td>
+          </tr>
+          <tr><td colspan="5">Festival</td></tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="15" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/f/f1/Memories_of_Home.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Memories_of_Home">Memories of Home</a></td>
+            <td>Akiv während Festival</td>
+          </tr>
+          <tr><td colspan="5">Vorbereitungen</td></tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="20" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/1/11/Magical_Infusion.png"/><img src="https://wiki.guildwars2.com/images/9/9c/Otter%27s_Blessing_Enrichment.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Magical_Enrichment">Magical Enrichment</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Otter%27s_Blessing_Enrichment">Otter's Blessing Enrichment</a></td>
+            <td>Anreicherungsslot (Amulett)</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="10" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/e/ee/Endless_Toymaker%27s_Tonic.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Guild_Magic_Find">Guild Magic Find</a></td>
+            <td>Gildenhalle: Taverne</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="10" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Enlightenment">Enlightenment</a></td>
+            <td>Buff von einem Herz in der Provinz Seitung</td>
+          </tr>
+          <tr><td colspan="5">Kartenboni</td></tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="200" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/7/7f/Perseverance.png"/><img src="https://wiki.guildwars2.com/images/7/74/Hero_of_the_Wastes.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Perseverance">Perseverance</a> &<br/><a href="https://wiki.guildwars2.com/wiki/Hero_of_the_Wastes">Hero of the Wastes</a></td>
+            <td>Silberwüste Buffs<br/>5 x 30% + 50%</td>
+          </tr>
+          <tr><td colspan="5">Banner</td></tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="15" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/c/c6/Guild_Magic_Find_Banner_Boost.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Guild_Magic_Find_Banner_Boost">Guild Magic Find Banner Boost</a></td>
+            <td>Guild Gold and Magic Find Banner / Guild Heroes Banner / Guild Anniversary Banner</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="10" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/9/9d/Spirit_Banner.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Spirit_Banner_Boost">Spirit Banner Boost</a></td>
+            <td>Spirit Banner</td>
+          </tr>
+          <tr><td colspan="5">Verbrauchgegenstände (günstig, handelbar)</td></tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="40" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/e/eb/Longevity_Noodles.png"/><img src="https://wiki.guildwars2.com/images/8/8a/Chocolate_Omnomberry_Cream.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Longevity_Noodles">Longevity Noodles</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Chocolate_Omnomberry_Cream">Chocolate Omnomberry Cream</a></td>
+            <td>Nudeln (während Mondneujahr),<br/>Schokocreme (mit aktivem Segen)</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="30" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/e/ee/Sharpening_Skull.png"/><img src="https://wiki.guildwars2.com/images/7/71/Flask_of_Pumpkin_Oil.png"/><img src="https://wiki.guildwars2.com/images/8/8f/Lump_of_Crystallized_Nougat.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Sharpening_Skull">Sharpening Skull</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Flask_of_Pumpkin_Oil">Flask of Pumpkin Oil</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Lump_of_Crystallized_Nougat">Lump of Crystallized_Nougat</a></td>
+            <td>Nudeln geben vollen Buff nur während Mondneujahr,<br/>Schokocreme nur mit aktivem Segen</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="10" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/f/f3/Lucky_Draketail.png"/><img src="https://wiki.guildwars2.com/images/7/7d/Lucky_New_Year_Firework.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Lucky_Draketail">Lucky Draketail</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Lucky_New_Year_Firework">Lucky New Year Firework</a></td>
+            <td>Hält nur 5 Minuten, direkt mehrere zünden!</td>
+          </tr>
+          <tr><td colspan="5">Booster (accountgebunden)</td></tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="100" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/2/2e/Celebration_Booster.png"/><img src="https://wiki.guildwars2.com/images/2/25/Birthday_Booster.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Celebration_Booster">Celebration Booster</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Birthday_Booster">Birthday Booster</a></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="100" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/a/a4/Black_Lion_Booster.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Black_Lion_Booster">Black Lion Booster</a></td>
+            <td>Erhältlich für Statuetten</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="50" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/b/b6/Magic_Find_Booster.png"/><img src="https://wiki.guildwars2.com/images/4/4d/Communal_Boost_Bonfire.png"/><img src="https://wiki.guildwars2.com/images/3/3e/Dragon%27s_Fortune_Fireworks.png"/><img src="https://wiki.guildwars2.com/images/9/9d/Hallows_Fortune_Fireworks.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Magic_Find_Booster">Magic Find Booster</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Communal_Boost_Bonfire">Communal Boost Bonfire</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Dragon%27s_Fortune_Fireworks">Dragon's Fortune Fireworks</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Hallows_Fortune_Fireworks">Hallows Fortune Fireworks</a></td>
+            <td>Lagerfeuer und Feuerwerke können für mehrere Leute verwendet werden</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"/></td>
+            <td><input type="number" value="50" disabled="true"/></td>
+            <td><img src="https://wiki.guildwars2.com/images/b/b6/Magic_Find_Booster.png"/><img src="https://wiki.guildwars2.com/images/8/82/Heroic_Booster.png"/><img src="https://wiki.guildwars2.com/images/f/ff/Enchanted_Reward_Boost.png"/></td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Item_Booster">Item Booster</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Heroic_Booster">Heroic Booster</a> /<br/><a href="https://wiki.guildwars2.com/wiki/Enchanted_Reward_Boost">Enchanted Reward Boost</a></td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="col-1"></td>
+            <td class="col-2"><input type="number" id="sumValue" disabled="true"/></td>
+            <td class="col-1">%</td>
+            <td class="col-4">Summe</td>
+            <td class="col-4">Kein Mehrwert über 750%!</td>
+          </tr>
+        </tfoot>
+      </table>
+
+
+
+  </body>
+</html>

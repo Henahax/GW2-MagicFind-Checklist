@@ -1,0 +1,74 @@
+body{
+  padding-bottom: 3rem;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+p {
+  padding: 0 1rem 0 1rem;
+}
+
+.info {
+  font-size: larger;
+  animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: var(--bs-body-color);
+  }
+  100% {
+    color: red;
+  }
+}
+
+td {
+  vertical-align: middle;
+}
+
+input {
+  height: 2rem;
+  font-weight: bolder;
+}
+
+input[type="checkbox"] {
+  height: 2rem;
+  width: 2rem;
+}
+
+input[type="number"] {
+  text-align: right;
+  width: 100%;
+}
+
+img {
+  width: 2rem;
+}
+
+tfoot {
+  font-weight: 800;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: var(--bs-body-bg);;
+  width: 100%;
+}
+
+tfoot tr{
+  width: 100%;
+}
+
+.valueRed {
+  color: darkred;
+  font-weight: 800;
+}
+
+.valueGreen {
+  color: green;
+  font-weight: 800;
+}
