@@ -26,12 +26,13 @@ function calculateSum(){
             }
         }
     
-        document.getElementById("sumValue").className = "";
         document.getElementById("sumValue").innerHTML = value;
     
         if(value < 750){
+            document.getElementById("sumValue").classList.remove("valueGreen");
             document.getElementById("sumValue").classList.add("valueRed");
         }else {
+            document.getElementById("sumValue").classList.remove("valueRed");
             document.getElementById("sumValue").classList.add("valueGreen");
         }
     }
