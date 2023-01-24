@@ -11,7 +11,7 @@ p {
 }
 
 .info {
-  font-size: larger;
+  font-size: large;
   animation: color-change 5s infinite;
 }
 @keyframes color-change {
@@ -59,9 +59,10 @@ img {
   left: 0;
   bottom: 0;
   z-index: 100;
-  background-color: var(--bs-body-bg);;
   width: 100%;
   height: 3rem;
+  border-width: 0.125rem;
+  border-style: solid;
 }
 
 #footer tr{
