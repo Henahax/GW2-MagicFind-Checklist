@@ -16,13 +16,13 @@ p {
 }
 @keyframes color-change {
   0% {
-    color: red;
+    color: var(--bs-danger);
   }
   50% {
-    color: var(--bs-body-color);
+    color: var(--bs-light);
   }
   100% {
-    color: red;
+    color: var(--bs-danger);
   }
 }
 
@@ -74,12 +74,6 @@ img {
   padding: 0.5rem 0.5rem;
 }
 
-.valueRed {
-  color: darkred;
-  font-weight: 800;
-}
-
-.valueGreen {
-  color: green;
+#sumValue{
   font-weight: 800;
 }
