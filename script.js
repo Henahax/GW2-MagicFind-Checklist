@@ -29,11 +29,11 @@ function calculateSum(){
         document.getElementById("sumValue").innerHTML = value;
     
         if(value < 750){
-            document.getElementById("sumValue").classList.remove("valueGreen");
-            document.getElementById("sumValue").classList.add("valueRed");
+            document.getElementById("sumValue").classList.remove("text-success");
+            document.getElementById("sumValue").classList.add("text-danger");
         }else {
-            document.getElementById("sumValue").classList.remove("valueRed");
-            document.getElementById("sumValue").classList.add("valueGreen");
+            document.getElementById("sumValue").classList.remove("text-danger");
+            document.getElementById("sumValue").classList.add("text-success");
         }
     }
 }
