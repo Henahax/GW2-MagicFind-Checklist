@@ -1,5 +1,5 @@
 body{
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 h1 {
@@ -76,4 +76,10 @@ img {
 
 #sumValue{
   font-weight: 800;
+}
+
+#copyright{
+  width: 100%;
+  font-size: smaller;
+  text-align: center;
 }
