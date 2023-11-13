@@ -87,15 +87,15 @@ input[type="number"] {
     text-align: right;
 }
 
+img {
+    width: 2rem;
+}
+
 #copyright {
     font-weight: 100;
     text-align: center;
     font-size: smaller;
     color: rgb(255, 255, 255, 0.75);
-}
-
-img {
-    width: 2rem;
 }
 
 .red{
