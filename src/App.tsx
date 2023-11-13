@@ -20,6 +20,7 @@ function App() {
   };
 
   const handleCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
+    isChecked;
     setChecked(event.target.checked);
     var value = calculateSum();
     setSumValue(value);
