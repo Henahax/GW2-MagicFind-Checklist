@@ -239,11 +239,16 @@
 		{
 			"value": 50,
 			"icons": [
+				"https://wiki.guildwars2.com/images/7/73/Candy_Corn_Gobbler_Pack.png",
 				"https://wiki.guildwars2.com/images/b/b6/Magic_Find_Booster.png",
 				"https://wiki.guildwars2.com/images/8/82/Heroic_Booster.png",
 				"https://wiki.guildwars2.com/images/f/ff/Enchanted_Reward_Boost.png"
 			],
 			"names": [
+				{
+					"name": "Candy Corn Gobbler",
+					"link": "https://wiki.guildwars2.com/wiki/Candy_Corn_Gobbler"
+				},
 				{
 					"name": "Item Booster",
 					"link": "https://wiki.guildwars2.com/wiki/Item_Booster"
