@@ -1,5 +1,9 @@
 # Guild Wars 2 - Magic Find Checklist
 
+## 🌐 Website
+
+Visit the [Website](https://magicfind.henahax.de/)
+
 ## 🎯 Goal
 
 - Create an interactive version of the [Maximizing magic find](https://wiki.guildwars2.com/wiki/Magic_Find#Maximizing_magic_find) section of the [Guild Wars 2 Official Wiki](https://wiki.guildwars2.com/wiki/Main_Page) to help my friends during [Lunar New Year](https://wiki.guildwars2.com/wiki/Lunar_New_Year) and feel good about myself for being "efficient" with items in a game
