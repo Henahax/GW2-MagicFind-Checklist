@@ -1,8 +1,6 @@
 # Guild Wars 2 - Magic Find Checklist
 
-## 🌐 Website
-
-Visit the [Website](https://magicfind.henahax.de/)
+Project for my [Guild Wars 2 Magic Find Checklist](https://magicfind.henahax.de/) webtool
 
 ## 🎯 Goal
 
@@ -14,3 +12,4 @@ Visit the [Website](https://magicfind.henahax.de/)
 - [Astro](https://astro.build/)
 - [Svelte](https://svelte.dev/)
 - [Tailwind](https://tailwindcss.com/)
+- [Docker](https://www.docker.com/)
