@@ -1,6 +1,6 @@
 ---
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
@@ -8,58 +8,58 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link
-			rel="icon"
-			type="image/svg+xml"
-			href="https://wiki.guildwars2.com/images/thumb/3/31/Magic_Find.png/20px-Magic_Find.png"
-		/>
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://wiki.guildwars2.com/images/thumb/3/31/Magic_Find.png/20px-Magic_Find.png"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
 <style is:global>
-	html {
-		color-scheme: dark;
-	}
+  html {
+    color-scheme: dark;
+  }
 
-	[type="checkbox"] {
-		@apply w-8 h-8 m-2;
-	}
+  [type="checkbox"] {
+    @apply w-8 h-8 m-2;
+  }
 
-	thead tr,
-	tbody tr,
-	tfoot tr {
-		border: 1px solid rgb(64, 64, 64, 1);
-		border-bottom: 0;
-		border-left: 0;
-		border-right: 0;
-	}
+  thead tr,
+  tbody tr,
+  tfoot tr {
+    border: 1px solid rgb(64, 64, 64, 1);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+  }
 
-	th,
-	td {
-		@apply p-0.5;
-	}
+  th,
+  td {
+    @apply p-0.5;
+  }
 
-	img {
-		@apply w-8 h-8;
-		min-width: 2rem;
-	}
+  img {
+    @apply w-8 h-8;
+    min-width: 2rem;
+  }
 
-	a {
-		@apply underline cursor-pointer hover:opacity-75 text-blue-300;
-	}
+  a {
+    @apply underline cursor-pointer hover:opacity-75 text-blue-300;
+  }
 
-	.value {
-		@apply text-right text-lg font-bold;
-	}
-	.icons {
-		@apply flex flex-wrap m-2;
-	}
+  .value {
+    @apply text-right text-lg font-bold;
+  }
+  .icons {
+    @apply flex flex-wrap m-2;
+  }
 </style>
