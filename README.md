@@ -9,7 +9,6 @@ Project for my [Guild Wars 2 Magic Find Checklist](https://magicfind.henahax.de/
 
 ## 💡 Technologies
 
-- [Astro](https://astro.build/)
 - [Svelte](https://svelte.dev/)
 - [Tailwind](https://tailwindcss.com/)
 - [Docker](https://www.docker.com/)
