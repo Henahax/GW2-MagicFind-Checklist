@@ -108,7 +108,9 @@
     </tbody>
     <tfoot class="sticky bottom-0 h-12 bg-neutral-800 font-black border-0">
       <tr>
-        <td colspan="2" id="sum" class="text-right text-xl px-2">{sum}</td>
+        <td colspan="2" id="sum" class="text-right text-xl px-2 text-red-500"
+          >{sum}</td
+        >
         <td colspan="2" class="text-xl">% (of max 750%)</td>
       </tr>
     </tfoot>
