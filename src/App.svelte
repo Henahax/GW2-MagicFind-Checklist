@@ -1,8 +1,9 @@
 <script lang="ts">
-  import Category from "./lib/Category.svelte";
-  import items from "./assets/items.json";
+  import Section from "./lib/Section.svelte";
+  import data from "./assets/data.json";
 
   let sum = 0;
+
   let calculate = function calculate() {
     let calc = 0;
 
@@ -41,67 +42,13 @@
       <th class="text-left">Info</th>
     </thead>
     <tbody>
-      <tr class="bg-neutral-800">
-        <td colspan="4" class="px-2">Account</td>
-      </tr>
-      <tr>
-        <td>
-          <div class="flex">
-            <input class="w-8 h-8" type="checkbox" checked disabled />
-          </div>
-        </td>
-        <td class="text-right">
-          <input
-            id="account"
-            class="w-16 h-8 px-2 md:px-0 text-right"
-            type="number"
-            min="0"
-            max="350"
-            value="0"
-            on:change={calculate}
-          />
-        </td>
-        <td>
-          <div class="flex flex-wrap m-2">
-            <img
-              src="https://wiki.guildwars2.com/images/thumb/3/31/Magic_Find.png/20px-Magic_Find.png"
-              alt="MagicFind"
-            />
-          </div>
-        </td>
-        <td>
-          <div class="flex">
-            <a
-              class="text-neutral-200 hover:text-neutral-300 underline"
-              href="https://wiki.guildwars2.com/images/e/e9/Account_Bonuses.jpg"
-              >Account Bonuses</a
-            >
-          </div>
-          <div class="text-neutral-400 text-sm">
-            Magic Find value from Hero Panel in "Achievements" tab
-          </div>
-        </td>
-      </tr>
-      <Category name="Festival" items={items.festival} {calculate} />
-      <Category name="Preparations" items={items.preparations} {calculate} />
-      <Category
-        name="Map Event Bonuses"
-        items={items.mapeventbonuses}
-        {calculate}
-      />
-      <Category name="Banners" items={items.banners} {calculate} />
-      <Category name="Consumeables" items={items.consumables} {calculate} />
-      <Category name="Boosters" items={items.boosters} {calculate} />
+      {#each data as category}
+        <Section {category} {calculate} />
+      {/each}
       <tr>
         <td colspan="4">
-          <div class="w-fit text-center mx-auto">
-            <div class="text-sm text-neutral-400">© henahax.de 2024</div>
-            <a
-              class="text-xs underline text-neutral-500 hover:text-neutral-400"
-              href="https://github.com/Henahax/GW2-MagicFind-Checklist"
-            >
-              Sourcecode
-            </a>
+          <div class="w-fit text-center mx-auto text-sm text-neutral-400 p-4">
+            © henahax.de 2024
           </div>
         </td>
       </tr>

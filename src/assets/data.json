@@ -1,0 +1,329 @@
+[
+  {
+    "id": "account",
+    "name": "Account",
+    "items": [
+      {
+        "type": "number",
+        "value": 0,
+        "icons": [
+          "https://wiki.guildwars2.com/images/thumb/3/31/Magic_Find.png/20px-Magic_Find.png"
+        ],
+        "names": [
+          {
+            "name": "Account Bonuses",
+            "link": "https://wiki.guildwars2.com/images/e/e9/Account_Bonuses.jpg"
+          }
+        ],
+        "description": "Magic Find value from Hero Panel in 'Achievements' tab"
+      }
+    ]
+  },
+  {
+    "id": "festival",
+    "name": "Festival",
+    "items": [
+      {
+        "type": "checkbox",
+        "value": 15,
+        "icons": [
+          "https://wiki.guildwars2.com/images/f/f1/Memories_of_Home.png"
+        ],
+        "names": [
+          {
+            "name": "Memories of Home",
+            "link": "https://wiki.guildwars2.com/wiki/Memories_of_Home"
+          }
+        ],
+        "description": "Active during Lunar New Year festival"
+      }
+    ]
+  },
+  {
+    "id": "preparations",
+    "name": "Preparations",
+    "items": [
+      {
+        "type": "checkbox",
+        "value": 20,
+        "icons": [
+          "https://wiki.guildwars2.com/images/1/11/Magical_Infusion.png",
+          "https://wiki.guildwars2.com/images/9/9c/Otter%27s_Blessing_Enrichment.png"
+        ],
+        "names": [
+          {
+            "name": "Magical Enrichment",
+            "link": "https://wiki.guildwars2.com/wiki/Magical_Enrichment"
+          },
+          {
+            "name": "Otter's Blessing Enrichment",
+            "link": "https://wiki.guildwars2.com/wiki/Otter%27s_Blessing_Enrichment"
+          }
+        ],
+        "description": "Enrichtment (Amulet)"
+      },
+      {
+        "type": "checkbox",
+        "value": 10,
+        "icons": [
+          "https://wiki.guildwars2.com/images/e/ee/Endless_Toymaker%27s_Tonic.png"
+        ],
+        "names": [
+          {
+            "name": "Guild Magic Find",
+            "link": "https://wiki.guildwars2.com/wiki/Guild_Magic_Find"
+          }
+        ],
+        "description": "Guild Tavern"
+      },
+      {
+        "type": "checkbox",
+        "value": 10,
+        "icons": ["https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"],
+        "names": [
+          {
+            "name": "Enlightenment",
+            "link": "https://wiki.guildwars2.com/wiki/Enlightenment"
+          }
+        ],
+        "description": "Buff from completing Monastery Training Renown Heart (6 hours)"
+      },
+      {
+        "type": "checkbox",
+        "value": 15,
+        "icons": [
+          "https://wiki.guildwars2.com/images/e/e6/Dominion_Tribune_Inspiration.png"
+        ],
+        "names": [
+          {
+            "name": "Ward's Remembrance",
+            "link": "https://wiki.guildwars2.com/wiki/Ward%27s_Remembrance"
+          }
+        ],
+        "description": "Astral Ward Memorial in the Wizard's Tower (30 minutes)"
+      }
+    ]
+  },
+  {
+    "id": "mapeventbonuses",
+    "name": "Map Event Bonuses",
+    "items": [
+      {
+        "type": "checkbox",
+        "value": 200,
+        "icons": [
+          "https://wiki.guildwars2.com/images/7/7f/Perseverance.png",
+          "https://wiki.guildwars2.com/images/7/74/Hero_of_the_Wastes.png"
+        ],
+        "names": [
+          {
+            "name": "Perseverance",
+            "link": "https://wiki.guildwars2.com/wiki/Perseverance"
+          },
+          {
+            "name": "Hero of the Wastes",
+            "link": "https://wiki.guildwars2.com/wiki/Hero_of_the_Wastes"
+          }
+        ],
+        "description": "Silverwastes Event Buffs + Meta Completion: 5 x 30% + 50%"
+      }
+    ]
+  },
+  {
+    "id": "banners",
+    "name": "Banners",
+    "items": [
+      {
+        "type": "checkbox",
+        "value": 15,
+        "icons": [
+          "https://wiki.guildwars2.com/images/c/c6/Guild_Magic_Find_Banner_Boost.png"
+        ],
+        "names": [
+          {
+            "name": "Guild Magic Find Banner Boost",
+            "link": "https://wiki.guildwars2.com/wiki/Guild_Magic_Find_Banner_Boost"
+          }
+        ],
+        "description": "Guild Gold and Magic Find Banner / Guild Heroes Banner / Guild Anniversary Banner"
+      },
+      {
+        "type": "checkbox",
+        "value": 10,
+        "icons": ["https://wiki.guildwars2.com/images/9/9d/Spirit_Banner.png"],
+        "names": [
+          {
+            "name": "Spirit Banner Boost",
+            "link": "https://wiki.guildwars2.com/wiki/Spirit_Banner_Boost"
+          }
+        ],
+        "description": "Spirit Banner"
+      }
+    ]
+  },
+  {
+    "id": "consumables",
+    "name": "Consumables",
+    "items": [
+      {
+        "type": "checkbox",
+        "value": 40,
+        "icons": [
+          "https://wiki.guildwars2.com/images/e/eb/Longevity_Noodles.png",
+          "https://wiki.guildwars2.com/images/8/8a/Chocolate_Omnomberry_Cream.png"
+        ],
+        "names": [
+          {
+            "name": "Longevity Noodles",
+            "link": "https://wiki.guildwars2.com/wiki/Longevity_Noodles"
+          },
+          {
+            "name": "Chocolate Omnomberry Cream",
+            "link": "https://wiki.guildwars2.com/wiki/Chocolate_Omnomberry_Cream"
+          }
+        ],
+        "description": "Noodles (during Lunar New Year) / Chocolate Cream (with active boons)"
+      },
+      {
+        "type": "checkbox",
+        "value": 30,
+        "icons": [
+          "https://wiki.guildwars2.com/images/e/ee/Sharpening_Skull.png",
+          "https://wiki.guildwars2.com/images/7/71/Flask_of_Pumpkin_Oil.png",
+          "https://wiki.guildwars2.com/images/8/8f/Lump_of_Crystallized_Nougat.png"
+        ],
+        "names": [
+          {
+            "name": "Sharpening Skull",
+            "link": "https://wiki.guildwars2.com/wiki/Sharpening_Skull"
+          },
+          {
+            "name": "Flask of Pumpkin Oil",
+            "link": "https://wiki.guildwars2.com/images/7/71/Flask_of_Pumpkin_Oil.png"
+          },
+          {
+            "name": "Lump of Crystallized_Nougat",
+            "link": "https://wiki.guildwars2.com/wiki/Lump_of_Crystallized_Nougat"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "type": "checkbox",
+        "value": 10,
+        "icons": [
+          "https://wiki.guildwars2.com/images/f/f3/Lucky_Draketail.png",
+          "https://wiki.guildwars2.com/images/7/7d/Lucky_New_Year_Firework.png"
+        ],
+        "names": [
+          {
+            "name": "Lucky Draketail",
+            "link": "https://wiki.guildwars2.com/wiki/Lucky_Draketail"
+          },
+          {
+            "name": "Lucky New Year Firework",
+            "link": "https://wiki.guildwars2.com/wiki/Lucky_New_Year_Firework"
+          }
+        ],
+        "description": "Stack duration"
+      }
+    ]
+  },
+  {
+    "id": "boosters",
+    "name": "Boosters",
+    "items": [
+      {
+        "type": "checkbox",
+        "value": 100,
+        "icons": [
+          "https://wiki.guildwars2.com/images/2/2e/Celebration_Booster.png",
+          "https://wiki.guildwars2.com/images/2/25/Birthday_Booster.png"
+        ],
+        "names": [
+          {
+            "name": "Celebration Booster",
+            "link": "https://wiki.guildwars2.com/wiki/Celebration_Booster"
+          },
+          {
+            "name": "Birthday Booster",
+            "link": "https://wiki.guildwars2.com/wiki/Birthday_Booster"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "type": "checkbox",
+        "value": 100,
+        "icons": [
+          "https://wiki.guildwars2.com/images/a/a4/Black_Lion_Booster.png"
+        ],
+        "names": [
+          {
+            "name": "Black Lion Booster",
+            "link": "https://wiki.guildwars2.com/wiki/Black_Lion_Booster"
+          }
+        ],
+        "description": "Available for Black Lion Statuettes"
+      },
+      {
+        "type": "checkbox",
+        "value": 50,
+        "icons": [
+          "https://wiki.guildwars2.com/images/b/b6/Magic_Find_Booster.png",
+          "https://wiki.guildwars2.com/images/4/4d/Communal_Boost_Bonfire.png",
+          "https://wiki.guildwars2.com/images/3/3e/Dragon%27s_Fortune_Fireworks.png",
+          "https://wiki.guildwars2.com/images/9/9d/Hallows_Fortune_Fireworks.png"
+        ],
+        "names": [
+          {
+            "name": "Magic Find Booster",
+            "link": "https://wiki.guildwars2.com/wiki/Magic_Find_Booster"
+          },
+          {
+            "name": "Communal Boost Bonfire",
+            "link": "https://wiki.guildwars2.com/wiki/Communal_Boost_Bonfire"
+          },
+          {
+            "name": "Dragon's Fortune Fireworks",
+            "link": "https://wiki.guildwars2.com/wiki/Dragon%27s_Fortune_Fireworks"
+          },
+          {
+            "name": "Hallows Fortune Fireworks",
+            "link": "https://wiki.guildwars2.com/wiki/Hallows_Fortune_Fireworks"
+          }
+        ],
+        "description": "Bonfires and Fireworks can buff multiple people"
+      },
+      {
+        "type": "checkbox",
+        "value": 50,
+        "icons": [
+          "https://wiki.guildwars2.com/images/7/73/Candy_Corn_Gobbler_Pack.png",
+          "https://wiki.guildwars2.com/images/b/b6/Magic_Find_Booster.png",
+          "https://wiki.guildwars2.com/images/8/82/Heroic_Booster.png",
+          "https://wiki.guildwars2.com/images/f/ff/Enchanted_Reward_Boost.png"
+        ],
+        "names": [
+          {
+            "name": "Candy Corn Gobbler",
+            "link": "https://wiki.guildwars2.com/wiki/Candy_Corn_Gobbler"
+          },
+          {
+            "name": "Item Booster",
+            "link": "https://wiki.guildwars2.com/wiki/Item_Booster"
+          },
+          {
+            "name": "Heroic Booster",
+            "link": "https://wiki.guildwars2.com/wiki/Heroic_Booster"
+          },
+          {
+            "name": "Enchanted Reward Boost",
+            "link": "https://wiki.guildwars2.com/wiki/Enchanted_Reward_Boost"
+          }
+        ],
+        "description": ""
+      }
+    ]
+  }
+]
