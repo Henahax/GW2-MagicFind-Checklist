@@ -30,7 +30,7 @@
   };
 </script>
 
-<main class="justify-center w-fit mx-auto">
+<main class="justify-center w-fit mx-auto p-1">
   <h1 class="text-center text-2xl font-bold p-4">
     Guild Wars 2 MagicFind Checklist
   </h1>
@@ -53,7 +53,7 @@
         </td>
       </tr>
     </tbody>
-    <tfoot class="sticky bottom-0 h-12 bg-neutral-800 font-black border-0">
+    <tfoot class="sticky bottom-1 h-12 bg-neutral-800 font-black border-0">
       <tr>
         <td colspan="2" id="sum" class="text-right text-xl px-2 text-red-500"
           >{sum}</td
