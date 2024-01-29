@@ -3,6 +3,10 @@
 
   export let item: Item;
   export let calculate: any;
+
+  function selectText(event) {
+    event.target.select();
+  }
 </script>
 
 <tr>
@@ -20,12 +24,13 @@
     {#if item.type === "number"}
       <input
         id="account"
-        class="w-16 h-8 px-2 md:px-0 text-right"
+        class="w-16 h-8 px-2 md:px-0 text-right select-all"
         type="number"
         min="0"
         max="350"
         value="0"
         on:change={calculate}
+        on:click={selectText}
       />
     {/if}
     {#if item.type === "checkbox"}

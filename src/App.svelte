@@ -32,7 +32,7 @@
 
 <main class="justify-center w-fit mx-auto p-1">
   <h1 class="text-center text-2xl font-bold p-4">
-    Guild Wars 2 MagicFind Checklist
+    <nobr>Guild Wars 2</nobr> <nobr>MagicFind Checklist</nobr>
   </h1>
   <table class="table-auto px-2">
     <thead>
