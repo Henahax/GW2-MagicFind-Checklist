@@ -1,7 +1,7 @@
 [
   {
-    "id": "account",
-    "name": "Account",
+    "id": "character",
+    "name": "Character (Account & Gear)",
     "items": [
       {
         "type": "number",
@@ -16,33 +16,7 @@
           }
         ],
         "description": "Magic Find value from Hero Panel in 'Achievements' tab"
-      }
-    ]
-  },
-  {
-    "id": "festival",
-    "name": "Festival",
-    "items": [
-      {
-        "type": "checkbox",
-        "value": 15,
-        "icons": [
-          "https://wiki.guildwars2.com/images/f/f1/Memories_of_Home.png"
-        ],
-        "names": [
-          {
-            "name": "Memories of Home",
-            "link": "https://wiki.guildwars2.com/wiki/Memories_of_Home"
-          }
-        ],
-        "description": "Active during Lunar New Year festival"
-      }
-    ]
-  },
-  {
-    "id": "preparations",
-    "name": "Preparations",
-    "items": [
+      },
       {
         "type": "checkbox",
         "value": 20,
@@ -61,6 +35,26 @@
           }
         ],
         "description": "Enrichtment (Amulet)"
+      }
+    ]
+  },
+  {
+    "id": "effects",
+    "name": "Effects (Event & Preparations)",
+    "items": [
+      {
+        "type": "checkbox",
+        "value": 15,
+        "icons": [
+          "https://wiki.guildwars2.com/images/f/f1/Memories_of_Home.png"
+        ],
+        "names": [
+          {
+            "name": "Memories of Home",
+            "link": "https://wiki.guildwars2.com/wiki/Memories_of_Home"
+          }
+        ],
+        "description": "Active during Lunar New Year festival"
       },
       {
         "type": "checkbox",
@@ -79,7 +73,9 @@
       {
         "type": "checkbox",
         "value": 10,
-        "icons": ["https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"],
+        "icons": [
+          "https://wiki.guildwars2.com/images/f/fa/Enlightenment.png"
+        ],
         "names": [
           {
             "name": "Enlightenment",
@@ -101,13 +97,7 @@
           }
         ],
         "description": "Astral Ward Memorial in the Wizard's Tower (30 minutes)"
-      }
-    ]
-  },
-  {
-    "id": "mapeventbonuses",
-    "name": "Map Event Bonuses",
-    "items": [
+      },
       {
         "type": "checkbox",
         "value": 200,
@@ -131,7 +121,7 @@
   },
   {
     "id": "banners",
-    "name": "Banners",
+    "name": "Banners (Guild or Items)",
     "items": [
       {
         "type": "checkbox",
@@ -150,7 +140,9 @@
       {
         "type": "checkbox",
         "value": 10,
-        "icons": ["https://wiki.guildwars2.com/images/9/9d/Spirit_Banner.png"],
+        "icons": [
+          "https://wiki.guildwars2.com/images/9/9d/Spirit_Banner.png"
+        ],
         "names": [
           {
             "name": "Spirit Banner Boost",
@@ -163,7 +155,7 @@
   },
   {
     "id": "consumables",
-    "name": "Consumables",
+    "name": "Consumables (Crafting & Trading Post)",
     "items": [
       {
         "type": "checkbox",
@@ -231,7 +223,7 @@
   },
   {
     "id": "boosters",
-    "name": "Boosters",
+    "name": "Boosters (Accountbound)",
     "items": [
       {
         "type": "checkbox",
