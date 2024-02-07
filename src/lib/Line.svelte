@@ -4,7 +4,7 @@
   export let item: Item;
   export let calculate: any;
 
-  function selectText(event) {
+  function selectText(event: Event) {
     event.target.select();
   }
 </script>
