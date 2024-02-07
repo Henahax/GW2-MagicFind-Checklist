@@ -259,6 +259,7 @@
         "value": 50,
         "icons": [
           "https://wiki.guildwars2.com/images/b/b6/Magic_Find_Booster.png",
+          "https://wiki.guildwars2.com/images/f/ff/Enchanted_Reward_Boost.png",
           "https://wiki.guildwars2.com/images/4/4d/Communal_Boost_Bonfire.png",
           "https://wiki.guildwars2.com/images/3/3e/Dragon%27s_Fortune_Fireworks.png",
           "https://wiki.guildwars2.com/images/9/9d/Hallows_Fortune_Fireworks.png"
@@ -267,6 +268,10 @@
           {
             "name": "Magic Find Booster",
             "link": "https://wiki.guildwars2.com/wiki/Magic_Find_Booster"
+          },
+          {
+            "name": "Enchanted Reward Boost (Magic Find Booster)",
+            "link": "https://wiki.guildwars2.com/wiki/Enchanted_Reward_Boost"
           },
           {
             "name": "Communal Boost Bonfire",
@@ -288,8 +293,8 @@
         "value": 50,
         "icons": [
           "https://wiki.guildwars2.com/images/b/b6/Magic_Find_Booster.png",
-          "https://wiki.guildwars2.com/images/8/82/Heroic_Booster.png",
           "https://wiki.guildwars2.com/images/f/ff/Enchanted_Reward_Boost.png",
+          "https://wiki.guildwars2.com/images/8/82/Heroic_Booster.png",
           "https://wiki.guildwars2.com/images/7/73/Candy_Corn_Gobbler_Pack.png"
         ],
         "names": [
@@ -298,12 +303,12 @@
             "link": "https://wiki.guildwars2.com/wiki/Item_Booster"
           },
           {
-            "name": "Heroic Booster",
-            "link": "https://wiki.guildwars2.com/wiki/Heroic_Booster"
+            "name": "Enchanted Reward Boost (Item Booster)",
+            "link": "https://wiki.guildwars2.com/wiki/Enchanted_Reward_Boost"
           },
           {
-            "name": "Enchanted Reward Boost",
-            "link": "https://wiki.guildwars2.com/wiki/Enchanted_Reward_Boost"
+            "name": "Heroic Booster",
+            "link": "https://wiki.guildwars2.com/wiki/Heroic_Booster"
           },
           {
             "name": "Candy Corn Gobbler",
